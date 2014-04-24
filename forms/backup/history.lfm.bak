@@ -1,0 +1,95 @@
+object Form3: TForm3
+  Left = 1300
+  Height = 450
+  Top = 602
+  Width = 556
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Versionshistorie'
+  ClientHeight = 450
+  ClientWidth = 556
+  Position = poMainFormCenter
+  LCLVersion = '1.0.14.0'
+  object Memo1: TMemo
+    Left = 0
+    Height = 450
+    Top = 0
+    Width = 558
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Ubuntu'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      '  Version 0.1.0.0'
+      '  - Erstes Konzept erarbeitet für die Forms, Units, Buttons, etc..'
+      ''
+      '  Version 0.2.0.0'
+      '  - Erste Implementierung der nötigen Klassen wie Kondensatoren, Graphen, etc...'
+      '  - Layout angepasst (vorher HDTV-Auflösung): für kleinere Bildschirme, Laptops'
+      '  - Info-Fenster bearbeitet'
+      '  - Koordinatensystem zeichnen'
+      ''
+      '  Version 0.3.0.0'
+      '  - Darstellung des Koordinatensystems erweitert( Beschriftung )'
+      '  - Grafik-Funktionen'
+      '  - Kondensatoren anzeigen/ausblenden'
+      '  - Versionshistorie einsehbar gemacht     '
+      ''
+      ' Version 0.4.0.0'
+      ' - Layout verbessert     '
+      ' - Diagramm-Export zu BMP-Datei eingefügt '
+      ' - Fehlerbeseitigung bei der Wert-Übernahme der Eingabe-Parameter'
+      ''
+      ' Version 0.5.0.0'
+      ' - Stromstärke als Eingabeparameter entfernt'
+      ' - Ansichtsoptionen geändert von "Aufladen" & "Entladen" zu "Spannung" & '
+      ' "Stromstärke" '
+      ' - Berechnung der ersten Werte '
+      ' - Fehlerbehandlung + Ausgabe für falsche Eingaben eingefügt'
+      ' - Speichern-Dialog für Bildexport eingefügt'
+      ' - Programm-Menü erweitert'
+      ' - Endlich einen Projektnamen gefunden: Capacitux'
+      ' - Übersetzung der Dialoge eingefügt'
+      ' - Möglichkeit eingefügt, die Kondensatoren tabellarisch zu bearbeiten'
+      ' - Funktion zur Umwandlung der Darstellung der Einheiten eingefügt'
+      ''
+      ' Version 0.6.0.0'
+      ' - Funktionen für die Darstellung des Rasters korrigiert'
+      ' - Berechnungsfunktionen für die Spannung eingefügt'
+      ' - Darstellung der Kurven eingebaut'
+      ' - "Berechnen"-Knopf ist überflüssig geworden'
+      ' - Anzeige-Bereich eingefügt'
+      ' - Diagramme werden nach jeder Änderung aktualisiert'
+      ' - Auswahl, welcher Vorgang angezeigt werden soll, einer oder beide'
+      ' - Screenshot-Funktion vom gesamten Bildschirm'
+      ' - tabellarische Werteingabe vorerst rausgenommen, da weitere Hilfsfunktionen dafür '
+      'nötig sind. Wird später wieder reaktiviert. '
+      ''
+      ''
+      ' ###### Version 1.0.0.0  (07.03.14) ###### '
+      ' - Release-fähige Version'
+      ' - Zoom überarbeitet'
+      ' - Speichern & Laden der Werte hinzugefügt'
+      ' - Abbrechen in den Dialogen funktioniert wieder'
+      ' - Layout erneut minimalisiert'
+      ''
+      '  Version 1.1.0.0'
+      ' - Linux-Version wieder kompilierbar'
+      ' - Programm passt sich ans Betriebssystem an'
+      ' - Fehler bei den "Öffnen-" und "Speicher-" Dialogen gelöst'
+      ' - Kurven können nun auch "dick" angezeigt werden '
+      ' - Darstellungs-Inkompatibilität von Floats in versch. Sprachen beim Laden einer Datei '
+      'beseitigt/umgangen'
+      ' - 2 Warndialoge eingefügt'
+      ' - Ladevorgang gegenüber Fehlern(Punkt/Komma) jetzt toleranter'
+      ' - Fehlverhalten bei der Graphendarstellung behoben'
+      ' - Die Berechnung der Kurven findet wieder in Capacitor.pas statt'
+    )
+    ParentBidiMode = False
+    ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+end
